@@ -180,6 +180,11 @@ client.background       #ffffff
 exec_always nitrogen --restore
 
 #Layout restore
-exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rossvold/.config/i3/workspace_1.json'"
+#TODO: Workspace X should be a set workspace in a monitor using the previously defined $sm or $fm.
+exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/rossvold/.config/i3/workspace_1.json'"
 #Create matching windows to workspace_x.json.
-    exec --no-startup-id firefox
+exec --no-startup-id firefox https://github.com/rossvold
+exec --no-startup-id kitty
+exec --no-startup-id kitty -e sh -c 'cd personal/
+exec --no-startup-id kitty -e sh -c 'cd personal/
+exec --no-startup-id kitty -e neofetch

@@ -1,57 +1,9 @@
 {
     "border": "pixel",
-    "current_border_width": 1,
     "floating": "auto_off",
-    "geometry": {
-       "height": 1557,
-       "width": 2560,
-       "x": 0,
-       "y": 0
-    },
+    "layout": "splith",
     "marks": [],
-    "name": "nvim .config/i3/config ",
-    "percent": 0.333333333333333,
-    "swallows": [
-       {
-       "class": "^kitty$",
-       "instance": "^kitty$",
-       "machine": "^archlinux$",
-       "title": "^nvim\\ \\.config\\/i3\\/config\\ $"
-       }
-    ],
-    "type": "con"
-}
-
-{
-    "border": "pixel",
-    "current_border_width": 1,
-    "floating": "auto_off",
-    "geometry": {
-       "height": 1363,
-       "width": 2538,
-       "x": 0,
-       "y": 0
-    },
-    "marks": [],
-    "name": "~/personal/næringsnett/repo",
-    "percent": 0.333333333333333,
-    "swallows": [
-       {
-       "class": "^kitty$",
-       "instance": "^kitty$",
-       "machine": "^archlinux$",
-       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
-       }
-    ],
-    "type": "con"
-}
-
-{
-    "border": "pixel",
-    "floating": "auto_off",
-    "layout": "splitv",
-    "marks": [],
-    "percent": 0.333333333333333,
+    "percent": 1,
     "type": "con",
     "nodes": [
         {
@@ -59,21 +11,43 @@
             "current_border_width": 1,
             "floating": "auto_off",
             "geometry": {
-               "height": 1363,
-               "width": 1687,
+               "height": 1370,
+               "width": 1011,
                "x": 0,
                "y": 0
             },
             "marks": [],
-            "name": "Søk i registeret vårt. Vi har all næringsliv i Norge. — Mozilla Firefox",
-            "percent": 0.673062997827661,
+            "name": "~",
+            "percent": 0.283333333333333,
             "swallows": [
                {
-               "class": "^firefox$",
-               "instance": "^Navigator$",
+               "class": "^kitty$",
+               "instance": "^kitty$",
                "machine": "^archlinux$",
-               "title": "^Søk\\ i\\ registeret\\ vårt\\.\\ Vi\\ har\\ all\\ næringsliv\\ i\\ Norge\\.\\ \\—\\ Mozilla\\ Firefox$",
-               "window_role": "^browser$"
+               "title": "^\\~$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1370,
+               "width": 1011,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "~/.config/i3",
+            "percent": 0.433333333333333,
+            "swallows": [
+               {
+               "class": "^kitty$",
+               "instance": "^kitty$",
+               "machine": "^archlinux$",
+               "title": "^\\~\\/\\.config\\/i3$"
                }
             ],
             "type": "con"
@@ -81,9 +55,9 @@
         {
             "border": "pixel",
             "floating": "auto_off",
-            "layout": "splith",
+            "layout": "splitv",
             "marks": [],
-            "percent": 0.326937002172339,
+            "percent": 0.283333333333333,
             "type": "con",
             "nodes": [
                 {
@@ -91,46 +65,80 @@
                     "current_border_width": 1,
                     "floating": "auto_off",
                     "geometry": {
-                       "height": 1363,
-                       "width": 1266,
+                       "height": 1370,
+                       "width": 1688,
                        "x": 0,
                        "y": 0
                     },
                     "marks": [],
-                    "name": "~/personal/næringsnett/repo",
-                    "percent": 0.5,
+                    "name": "Rossvold (Ruben Rossvold) — Mozilla Firefox",
+                    "percent": 0.7,
                     "swallows": [
                        {
-                       "class": "^kitty$",
-                       "instance": "^kitty$",
+                       "class": "^firefox$",
+                       "instance": "^Navigator$",
                        "machine": "^archlinux$",
-                       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
+                       "title": "^Rossvold\\ \\(Ruben\\ Rossvold\\)\\ \\—\\ Mozilla\\ Firefox$",
+                       "window_role": "^browser$"
                        }
                     ],
                     "type": "con"
                 },
                 {
                     "border": "pixel",
-                    "current_border_width": 1,
                     "floating": "auto_off",
-                    "geometry": {
-                       "height": 446,
-                       "width": 1687,
-                       "x": 0,
-                       "y": 0
-                    },
+                    "layout": "splith",
                     "marks": [],
-                    "name": "~/personal/næringsnett/repo",
-                    "percent": 0.5,
-                    "swallows": [
-                       {
-                       "class": "^kitty$",
-                       "instance": "^kitty$",
-                       "machine": "^archlinux$",
-                       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
-                       }
-                    ],
-                    "type": "con"
+                    "percent": 0.3,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "pixel",
+                            "current_border_width": 1,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 1370,
+                               "width": 1011,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "marks": [],
+                            "name": "~/personal",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                               "class": "^kitty$",
+                               "instance": "^kitty$",
+                               "machine": "^archlinux$",
+                               "title": "^\\~\\/personal$"
+                               }
+                            ],
+                            "type": "con"
+                        },
+                        {
+                            "border": "pixel",
+                            "current_border_width": 1,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 1370,
+                               "width": 1011,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "marks": [],
+                            "name": "~",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                               "class": "^kitty$",
+                               "instance": "^kitty$",
+                               "machine": "^archlinux$",
+                               "title": "^\\~$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
                 }
             ]
         }

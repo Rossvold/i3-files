@@ -18,7 +18,7 @@
             },
             "marks": [],
             "name": "~",
-            "percent": 0.283333333333333,
+            "percent": 0.333333333333333,
             "swallows": [
                {
                "class": "^kitty$",
@@ -34,20 +34,20 @@
             "current_border_width": 1,
             "floating": "auto_off",
             "geometry": {
-               "height": 1370,
-               "width": 1011,
+               "height": 1404,
+               "width": 5120,
                "x": 0,
                "y": 0
             },
             "marks": [],
-            "name": "~/.config/i3",
-            "percent": 0.433333333333333,
+            "name": "~",
+            "percent": 0.333333333333333,
             "swallows": [
                {
                "class": "^kitty$",
                "instance": "^kitty$",
                "machine": "^archlinux$",
-               "title": "^\\~\\/\\.config\\/i3$"
+               "title": "^\\~$"
                }
             ],
             "type": "con"
@@ -57,7 +57,7 @@
             "floating": "auto_off",
             "layout": "splitv",
             "marks": [],
-            "percent": 0.283333333333333,
+            "percent": 0.333333333333333,
             "type": "con",
             "nodes": [
                 {
@@ -103,14 +103,14 @@
                                "y": 0
                             },
                             "marks": [],
-                            "name": "~/personal",
+                            "name": "~",
                             "percent": 0.5,
                             "swallows": [
                                {
                                "class": "^kitty$",
                                "instance": "^kitty$",
                                "machine": "^archlinux$",
-                               "title": "^\\~\\/personal$"
+                               "title": "^\\~$"
                                }
                             ],
                             "type": "con"

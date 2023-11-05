@@ -192,4 +192,4 @@ exec --no-startup-id kitty
 #Workspace 2
 #This might not be neccecary since ws2 is simple, but having a layout is really nice.
 exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rossvold/.config/i3/workspace_1.json'"
-exec --no-startup-id firefox https://github.com/rossvold
+exec --no-startup-id firefox

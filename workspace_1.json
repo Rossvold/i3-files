@@ -1,0 +1,139 @@
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1557,
+       "width": 2560,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "nvim .config/i3/config ",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       "class": "^kitty$",
+       "instance": "^kitty$",
+       "machine": "^archlinux$",
+       "title": "^nvim\\ \\.config\\/i3\\/config\\ $"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1363,
+       "width": 2538,
+       "x": 0,
+       "y": 0
+    },
+    "marks": [],
+    "name": "~/personal/næringsnett/repo",
+    "percent": 0.333333333333333,
+    "swallows": [
+       {
+       "class": "^kitty$",
+       "instance": "^kitty$",
+       "machine": "^archlinux$",
+       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1363,
+               "width": 1687,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Søk i registeret vårt. Vi har all næringsliv i Norge. — Mozilla Firefox",
+            "percent": 0.673062997827661,
+            "swallows": [
+               {
+               "class": "^firefox$",
+               "instance": "^Navigator$",
+               "machine": "^archlinux$",
+               "title": "^Søk\\ i\\ registeret\\ vårt\\.\\ Vi\\ har\\ all\\ næringsliv\\ i\\ Norge\\.\\ \\—\\ Mozilla\\ Firefox$",
+               "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "floating": "auto_off",
+            "layout": "splith",
+            "marks": [],
+            "percent": 0.326937002172339,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 1363,
+                       "width": 1266,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "~/personal/næringsnett/repo",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^kitty$",
+                       "instance": "^kitty$",
+                       "machine": "^archlinux$",
+                       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 1,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 446,
+                       "width": 1687,
+                       "x": 0,
+                       "y": 0
+                    },
+                    "marks": [],
+                    "name": "~/personal/næringsnett/repo",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                       "class": "^kitty$",
+                       "instance": "^kitty$",
+                       "machine": "^archlinux$",
+                       "title": "^\\~\\/personal\\/næringsnett\\/repo$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+

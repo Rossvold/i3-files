@@ -77,13 +77,36 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-# Monitor & Workspaces
-#TODO: Group workspaces to separate monitors.
-#Samsung g9 Neo
+#Monitor & Workspaces
+## NOTE: If you get more than 2 monitors, consider using sxhkd for keybindings
+#Built in monitor
 set $fm eDP-1
+#Samsung g9 Neo
 set $sm DP-1
 # Define names for default workspaces for which we configure key bindings later on.
 # Group 1 Desktop built in Display
+workspace 1 output $fm
+workspace 2 output $fm
+workspace 3 output $fm
+workspace 4 output $fm
+workspace 5 output $fm
+workspace 6 output $fm
+workspace 7 output $fm
+workspace 8 output $fm
+workspace 9 output $fm
+workspace 10 output $fm
+# Group 2 Samsung G9 Neo
+workspace 11 output $sm
+workspace 12 output $sm
+workspace 13 output $sm
+workspace 14 output $sm
+workspace 15 output $sm
+workspace 16 output $sm
+workspace 17 output $sm
+workspace 18 output $sm
+workspace 19 output $sm
+workspace 20 output $sm
+#Define WSVar
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -94,7 +117,6 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
-# Group 2 Samsung G9 Neo
 set $ws11 "11"
 set $ws12 "12"
 set $ws13 "13"
@@ -117,17 +139,18 @@ bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 # Switch to Group 2
-bindsym $mod+Control+1 workspace number $ws11
-bindsym $mod+Control+2 workspace number $ws12
-bindsym $mod+Control+3 workspace number $ws13
-bindsym $mod+Control+4 workspace number $ws14
-bindsym $mod+Control+5 workspace number $ws15
-bindsym $mod+Control+6 workspace number $ws16
-bindsym $mod+Control+7 workspace number $ws17
-bindsym $mod+Control+8 workspace number $ws18
-bindsym $mod+Control+9 workspace number $ws19
-bindsym $mod+Control+0 workspace number $ws20
-# move focused container to workspace
+bindsym mod1+1 workspace number $ws11
+bindsym mod1+2 workspace number $ws12
+bindsym mod1+3 workspace number $ws13
+bindsym mod1+4 workspace number $ws14
+bindsym mod1+5 workspace number $ws15
+bindsym mod1+6 workspace number $ws16
+bindsym mod1+7 workspace number $ws17
+bindsym mod1+8 workspace number $ws18
+bindsym mod1+9 workspace number $ws19
+bindsym mod1+10 workspace number $ws20
+#Move focused container to workspace
+#Group1
 bindsym $mod+Shift+1 move container to workspace number $ws1
 bindsym $mod+Shift+2 move container to workspace number $ws2
 bindsym $mod+Shift+3 move container to workspace number $ws3
@@ -138,6 +161,17 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
+#Group2
+bindsym $mod+Shift+Control+1 move container to workspace number $ws11
+bindsym $mod+Shift+Control+2 move container to workspace number $ws12
+bindsym $mod+Shift+Control+3 move container to workspace number $ws13
+bindsym $mod+Shift+Control+4 move container to workspace number $ws14
+bindsym $mod+Shift+Control+5 move container to workspace number $ws15
+bindsym $mod+Shift+Control+6 move container to workspace number $ws16
+bindsym $mod+Shift+Control+7 move container to workspace number $ws17
+bindsym $mod+Shift+Control+8 move container to workspace number $ws18
+bindsym $mod+Shift+Control+9 move container to workspace number $ws19
+bindsym $mod+Shift+Control+10 move container to workspace number $ws20
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -182,7 +216,7 @@ exec_always nitrogen --restore
 #Layout restore
 #Workspace 1
 #TODO: Workspace X should be a set workspace in a monitor using the previously defined $sm or $fm.
-exec --no-startup-id "i3-msg 'workspace 1; append_layout /home/rossvold/.config/i3/workspace_1.json'"
+exec --no-startup-id "i3-msg 'workspace 11; append_layout /home/rossvold/.config/i3/workspace_1.json'"
 #Create matching windows to workspace_x.json.
 exec --no-startup-id firefox https://github.com/rossvold
 exec --no-startup-id kitty
@@ -191,5 +225,5 @@ exec --no-startup-id kitty
 exec --no-startup-id kitty
 #Workspace 2
 #This might not be neccecary since ws2 is simple, but having a layout is really nice.
-exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/rossvold/.config/i3/workspace_2.json'"
+exec --no-startup-id "i3-msg 'workspace 12; append_layout /home/rossvold/.config/i3/workspace_2.json'"
 exec --no-startup-id firefox

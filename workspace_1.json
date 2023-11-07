@@ -1,147 +1,25 @@
 {
     "border": "pixel",
+    "current_border_width": 1,
     "floating": "auto_off",
-    "layout": "splith",
+    "geometry": {
+       "height": 1370,
+       "width": 2560,
+       "x": 0,
+       "y": 0
+    },
     "marks": [],
+    "name": "Rossvold (Ruben Rossvold) — Mozilla Firefox",
     "percent": 1,
-    "type": "con",
-    "nodes": [
-        {
-            "border": "pixel",
-            "current_border_width": 1,
-            "floating": "auto_off",
-            "geometry": {
-               "height": 1370,
-               "width": 1011,
-               "x": 0,
-               "y": 0
-            },
-            "marks": [],
-            "name": "~",
-            "percent": 0.333333333333333,
-            "swallows": [
-               {
-               "class": "^kitty$",
-               "instance": "^kitty$",
-               "machine": "^archlinux$",
-               "title": "^\\~$"
-               }
-            ],
-            "type": "con"
-        },
-        {
-            "border": "pixel",
-            "current_border_width": 1,
-            "floating": "auto_off",
-            "geometry": {
-               "height": 1404,
-               "width": 5120,
-               "x": 0,
-               "y": 0
-            },
-            "marks": [],
-            "name": "~",
-            "percent": 0.333333333333333,
-            "swallows": [
-               {
-               "class": "^kitty$",
-               "instance": "^kitty$",
-               "machine": "^archlinux$",
-               "title": "^\\~$"
-               }
-            ],
-            "type": "con"
-        },
-        {
-            "border": "pixel",
-            "floating": "auto_off",
-            "layout": "splitv",
-            "marks": [],
-            "percent": 0.333333333333333,
-            "type": "con",
-            "nodes": [
-                {
-                    "border": "pixel",
-                    "current_border_width": 1,
-                    "floating": "auto_off",
-                    "geometry": {
-                       "height": 1370,
-                       "width": 1688,
-                       "x": 0,
-                       "y": 0
-                    },
-                    "marks": [],
-                    "name": "Rossvold (Ruben Rossvold) — Mozilla Firefox",
-                    "percent": 0.7,
-                    "swallows": [
-                       {
-                       "class": "^firefox$",
-                       "instance": "^Navigator$",
-                       "machine": "^archlinux$",
-                       "title": "^Rossvold\\ \\(Ruben\\ Rossvold\\)\\ \\—\\ Mozilla\\ Firefox$",
-                       "window_role": "^browser$"
-                       }
-                    ],
-                    "type": "con"
-                },
-                {
-                    "border": "pixel",
-                    "floating": "auto_off",
-                    "layout": "splith",
-                    "marks": [],
-                    "percent": 0.3,
-                    "type": "con",
-                    "nodes": [
-                        {
-                            "border": "pixel",
-                            "current_border_width": 1,
-                            "floating": "auto_off",
-                            "geometry": {
-                               "height": 1370,
-                               "width": 1011,
-                               "x": 0,
-                               "y": 0
-                            },
-                            "marks": [],
-                            "name": "~",
-                            "percent": 0.5,
-                            "swallows": [
-                               {
-                               "class": "^kitty$",
-                               "instance": "^kitty$",
-                               "machine": "^archlinux$",
-                               "title": "^\\~$"
-                               }
-                            ],
-                            "type": "con"
-                        },
-                        {
-                            "border": "pixel",
-                            "current_border_width": 1,
-                            "floating": "auto_off",
-                            "geometry": {
-                               "height": 1370,
-                               "width": 1011,
-                               "x": 0,
-                               "y": 0
-                            },
-                            "marks": [],
-                            "name": "~",
-                            "percent": 0.5,
-                            "swallows": [
-                               {
-                               "class": "^kitty$",
-                               "instance": "^kitty$",
-                               "machine": "^archlinux$",
-                               "title": "^\\~$"
-                               }
-                            ],
-                            "type": "con"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "swallows": [
+       {
+       "class": "^firefox$",
+       "instance": "^Navigator$",
+       "machine": "^archlinux$",
+       "title": "^Rossvold\\ \\(Ruben\\ Rossvold\\)\\ \\—\\ Mozilla\\ Firefox$",
+       "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
 }
 

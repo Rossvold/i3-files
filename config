@@ -181,11 +181,14 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
 mode "resize" {
+# Manual size changes by 10 px or 10 ppt
         bindsym l resize shrink width 10 px or 10 ppt
         bindsym h resize grow width 10 px or 10 ppt
         bindsym k resize shrink height 10 px or 10 ppt
         bindsym j resize grow height 10 px or 10 ppt
-        # back to normal: Enter or Escape or $mod+r
+# Make the window a fixed size
+bindsym $mod+x floating toggle ; [floating] resize set 2400 1400 ; move position center
+# back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
@@ -225,4 +228,7 @@ exec_always nitrogen --restore
 assign [title="^Steam$"] 14
 assign [title="^steam_app_"] 15
 
-# For future reference 'xrandr --output DP-1 --right-of eDP-1 --auto' could possibly be stored into a keybinding to start screen 2
+# connect to DP-1 on the right of eDP-1 'xrandr --output DP-1 --right-of eDP-1 --auto'
+bindsym $mod+Shift+m exec --no-startup-id "xrandr --output DP-1 --right-of eDP-1 --auto; sleep 5; i3 restart"
+# turn off monitor 2 mod shift o
+bindsym $mod+Shift+o exec --no-startup-id "xrandr --output DP-1 --off; sleep 3; i3 restart"

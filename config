@@ -197,7 +197,6 @@ bindsym $mod+x floating toggle ; [floating] resize set 2400 1400 ; move position
 #Statusbar
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 bar {
-    font pango:monospace 15px
     status_command i3status
 }
 

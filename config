@@ -2,6 +2,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 set $mod Mod4
 
+
 font pango:monospace 15px
 for_window [class=".*"] title_format "---"
 

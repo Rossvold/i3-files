@@ -2,7 +2,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 set $mod Mod4
 
-font pango:Ubuntu Mono 20
+font pango:monospace 15px
 for_window [class=".*"] title_format "---"
 
 # Start XDG autostart .desktop files using dex. See also
@@ -195,7 +195,11 @@ bindsym $mod+x floating toggle ; [floating] resize set 2400 1400 ; move position
 }
 
 #Statusbar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+bar {
+    font pango:monospace 15px
+    status_command i3status
+}
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #FFA500 #285577 #ffffff #2e9ef4   #ff8c00

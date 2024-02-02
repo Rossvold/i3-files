@@ -188,7 +188,7 @@ mode "resize" {
         bindsym k resize shrink height 10 px or 10 ppt
         bindsym j resize grow height 10 px or 10 ppt
 # Make the window a fixed size
-bindsym $mod+x floating toggle ; [floating] resize set 2400 1400 ; move position center
+bindsym $mod+x floating toggle ; [floating] resize set 2540 1400 ; move position center
 # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"

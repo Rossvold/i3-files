@@ -192,7 +192,7 @@ mode "resize" {
 # Floating window center
 bindsym $mod+x resize set 2540 1410 ; move position center
 # Aside floating window
-bindsym $mod+c resize set 1290 1410 ; move position 50ppt 0ppt
+bindsym $mod+c resize set 1290 1410 ; move position 50ppt 2px
 # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
         bindsym Escape mode "default"
